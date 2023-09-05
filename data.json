@@ -1,0 +1,72 @@
+[
+    {
+        "name": "x",
+        "username": "x",
+        "password": "1",
+        "email": "xx@m.v",
+        "dob": "2023-09-15",
+        "phone_number": "1234",
+        "age": "12",
+        "address": "123es"
+    },
+    {
+        "name": "x",
+        "username": "x",
+        "password": "1",
+        "email": "xx@m.v",
+        "dob": null,
+        "phone_number": 0,
+        "age": 0,
+        "address": 0
+    },
+    {
+        "name": "sriram",
+        "username": "sri",
+        "password": "1",
+        "email": "s@gmail.com",
+        "dob": "2023-09-15",
+        "phone_number": "22",
+        "age": "12",
+        "address": "ds"
+    },
+    {
+        "name": "sriram",
+        "username": "sri",
+        "password": "1",
+        "email": "s@gmail.com",
+        "dob": null,
+        "phone_number": 0,
+        "age": 0,
+        "address": 0
+    },
+    {
+        "name": "s",
+        "username": "s",
+        "password": "1",
+        "email": "s@g.com",
+        "dob": null,
+        "phone_number": 0,
+        "age": 0,
+        "address": 0
+    },
+    {
+        "name": "qq",
+        "username": "qq",
+        "password": "1",
+        "email": "q@g.cin",
+        "dob": null,
+        "phone_number": 0,
+        "age": 0,
+        "address": 0
+    },
+    {
+        "name": "c",
+        "username": "c",
+        "password": "1",
+        "email": "c@g.co",
+        "dob": "2023-09-28",
+        "phone_number": "2121212",
+        "age": "21",
+        "address": "ds"
+    }
+]
