@@ -78,37 +78,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="index.js"></script>
-    <script>
-        $(document).ready(function () {
-    $("#register-form").submit(function (event) {
-        event.preventDefault();
-        var newPassword = $("#regPassword").val();
-        var confirmPassword = $("#confirmPassword").val();
-
-       
-        if (newPassword != confirmPassword) {
-            $("#passwordMismatchPopup").modal("show");
-        } else {
-         
-            $.ajax({
-                type: "POST",
-                url: "register.php", 
-                data: $(this).serialize(),
-                success: function (response) {
-                    var responseData = JSON.parse(response);
-                    if (responseData.status === "success") {
-                        console.log(response);
-                    } else {
-                        console.log(response);
-                    }
-                },
-                error: function (xhr, status, error) {
-                }
-            });
-        }
-    });
-});
-    </script>
   
 
 

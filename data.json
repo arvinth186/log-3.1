@@ -68,5 +68,15 @@
         "phone_number": "2121212",
         "age": "21",
         "address": "ds"
+    },
+    {
+        "name": "kes",
+        "username": "kes",
+        "password": "1",
+        "email": "ksa@gmail.com",
+        "dob": null,
+        "phone_number": 0,
+        "age": 0,
+        "address": 0
     }
 ]
